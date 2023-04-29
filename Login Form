@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Registraion page</title>
+<body>
+<style>
+   body{
+   background-image: url(business.jpg.jpg);   
+   }
+</style>
+<form action="action_page.php">
+<div class="container">
+   <center><h1>Student Registration form (ICET)</h1></center>
+   <center><p>Please fill in this form to create an account.</p></center>
+   <br>
+
+   <center><lable><b>Enter Your Name With Intrials :</b></lable>
+   <input type="text"placeholder="Enter Your Name "Name="name"id="name" required></center>
+   <br>
+   <center><label><b>Enter the E-mail  :</b></label>
+   <input type="text"placeholder="Enter Your Email"Email="Email" required></center>
+   <br>
+
+   <center><lable><b>School Name : </b></lable>
+   <input type="text"placeholder="Enter your School Name"school Name="School Name"required></center>
+   <br>
+
+   <center><lable><b>Enter your address :</b></lable>
+   <input type="text"placeholder="Enter your address"address="address"required</center>
+   <br>
+   <br>
+   <center><lable><b>Birth Date :</b></lable>
+   <input type="text"placeholder="  Date/Month/Year" Birth Date="Birth Date"required</center>
+   <br>
+   <br>
+   <center><lable><b>Gender: </b></lable>
+      <label for="male">Male</label>         
+   <input type="radio" name="" id="male" >        
+   <label for="Female">Female</label>
+   <input type="radio" name="" id="female" ></center>
+   <br>
+   <br>
+   <center><lable><b>User Name :</b></lable>
+   <input type="text"placeholder=" Enter your User name"required</center>   
+   <br>
+   <br>
+   <center><lable><b>Password :</b></lable>
+   <input type="text"placeholder="password" required</center>  
+   <br>
+   <br>
+   <center><lable><b>Age :</b></labl>
+   <input type="text"placeholder=" Age"required</center>
+   <br>
+   <br>
+   <center><lable><b>Medium: </b></lable>
+      <label for="Sinhala">Sinhala</label>         
+   <input type="radio" name="" id="Sinhala" >        
+   <label for="English">English</label>
+   <input type="radio" name="" id="English" >
+   <label for="Tamil">Tamil</label>
+   <input type="radio" name="" id="Tamil" ></center>   
+   <br>
+   <br>
+   <button style="background-color: rgb(0, 128, 17);padding: 10px;color: beige;border-radius: 100px;">Submit</button>
+   <button style="background-color: rgb(19, 131, 4);padding: 10px;color: beige;border-radius: 100px;">Reset</button>
+</div>
+   <!--footer content-->  
+   <ul>
+      <li><Hotline->0764872150 / 0372225910</Hotline-></li>
+      <li><E-mail->buddhiushan2022@gmail.com</E-mail-></li>
+      <li><Address>no 176/ Nekeththa,Gokeralla</Address></li>
+      <li>Buddhi Ushan Rajapaksha</li>
+  </ul> 
+</form>    
+</body>    
+</head>    
+</html>
