@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+<body style="background-color: #8e8dd8">
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              
+            </ul>
+          
+      </nav>
+      
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/car.jpg.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/car.jpg.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/car.jpg.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button onclick="print()" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Buddhi</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <p class="para">The first online automobile magazine in Sri-Lanka. Best choice for buying and selling cars, vans, bikes, trucks, SUVs, vehicle parts and to be updated with the latest news in Sri-Lanka's Car market. We provide Sri Lankan car market a trusted online marketplace, where you can simply buy and sell cars among thousands of genuine customers.</p>
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="assets/1.jpg.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">van</h5>
+          <p class="card-text">A medium-sized motor vehicle, typically without side windows in the rear part, for transporting goods</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+
+      <div class="card1" style="width: 18rem;">
+        <img src="assets/2.jpg.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Bike</h5>
+          <p class="card-text">flatbar and race road bikes, mountain bikes, hybrid bikes (perfect for commuting), BMX</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+
+      <div class="card2" style="width: 18rem;">
+        <img src="assets/3.jpg.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lorry</h5>
+          <p class="card-text">lorry noun [ C ] TRANSPORT UK uk us plural lorries (UK and US also truck) a large road vehicle that is used for transporting goods</p>
+         </div>
+      </div>
+
+      <div class="card3" style="width: 18rem;">
+        <img src="assets/4.jpg.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Car</h5>
+          <p class="card-text">Buy and Sell vehicles in Sri Lanka's best online vehicle platform which has the largest collection of vehicles for sale.</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+      <div>
+        <input id="email"type="text"placeholder="Enter your Email">
+        <button onclick="getData()">Save Data</button>
+      </div>
+      <script src="js/js main.js"></script>
+</body>
+</html>
